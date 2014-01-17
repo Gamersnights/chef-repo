@@ -4,7 +4,7 @@ node_name                'svass'
 client_key               '/home/svass/chef-repo/.chef/svass.pem'
 validation_client_name   'chef-validator'
 validation_key           '/home/svass/chef-repo/.chef/chef-validator.pem'
-chef_server_url          'https://41.190.141.16:443'
+chef_server_url          'https://launch.liquid.gamersnights.com:443'
 syntax_check_cache_path  '/home/svass/chef-repo/.chef/syntax_check_cache'
 cookbook_path 		 '/home/svass/chef-repo/cookbooks'
 knife[:pve_cluster_url] = "#{ENV['PVE_CLUSTER_URL']}"
